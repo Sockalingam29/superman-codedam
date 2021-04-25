@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@font-face {
+    font-family: 'SupermanFont';
+    src: URL('SupermanFont.ttf') format('truetype');
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background: url("https://i.pinimg.com/originals/54/2e/ed/542eed617116d702fc4253d10fc0d325.jpg");
+    background-position: center;
+    background-size: 120px;
+    background-attachment:scroll;
+    font-family: 'Open Sans', sans-serif;
+    font-size:large;
+}
+:root{
+    --blue:#0060aa;
+   
+}
+nav h1{
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+}    
+nav{
+    background-color:var(--blue) ;
+    height: 160px;
+    width: 100%;
+    font-family: "SupermanFont";
+}
+
+.link{
+    display: inline;
+    margin:5px;
+    padding: 5px;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.active{
+    color: royalblue !important;
+    font-weight: bolder;
+}
+
+.list{
+    text-align: right;
+    color: red;
+}
+
+section{
+    width: 60%;
+    background-color: ivory;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 1rem;
+    border: 1px solid var(--blue);
+    border-radius:15px ;
+}
+#super-font{
+    font-family: 'SupermanFont', cursive;
+}
+
+container h1{
+    color:var(--blue);
+    padding:rem
+}
+#header{
+    text-align: center;
+}
+#steel{
+    color: black;
+    font-size:20px;
+}
+.font{
+    font-family: "SupermanFont";
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+.read-more{font-style: italic;}
+.read-more:hover{
+    text-decoration: underline;
+}
+.abtimg{
+    max-width: 100%;
+}
+table {
+    
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+.footer ol{
+      margin-top: 20px;
+      text-align: center !important;
+      font-family: 'Times New Roman', Times, serif;  
+      margin-right: 40px;
+  }
+.footer{
+      margin-top: 20px;
+      text-align: center;
+  }
+
+.footer li{
+    display: inline;
+    margin:5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.footer a{
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
